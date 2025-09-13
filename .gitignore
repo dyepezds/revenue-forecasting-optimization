@@ -1,0 +1,26 @@
+# environments & IDE
+.venv/
+.env
+.idea/
+.vscode/
+
+# python cache
+__pycache__/
+*.pyc
+
+# data (keep only raw schema examples if needed)
+data/raw/
+data/interim/
+data/processed/
+
+# generated reports/tables (OK to commit a PNG figure)
+reports/tables/
+reports/metrics/
+
+# notebooks metadata
+.ipynb_checkpoints/
+
+# Ignore all reports except main figure
+reports/tables/
+reports/metrics/
+notebooks/reports/
