@@ -2,19 +2,16 @@
 # Python
 # ==========================
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 *.pyd
-*.so
+*.pkl
 *.egg-info/
-dist/
-build/
+*.egg
+*.so
 
-# ==========================
 # Virtual environments
-# ==========================
 .venv/
-.env/
 env/
 venv/
 
@@ -22,68 +19,37 @@ venv/
 # Jupyter
 # ==========================
 .ipynb_checkpoints/
-*.ipynb_save
-*.ipynb_conv
+*.ipynb_checkpoints
 
 # ==========================
-# IDEs & Editors
+# Data (too large for GitHub)
 # ==========================
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# ==========================
-# OS generated
-# ==========================
-.DS_Store
-Thumbs.db
-
-# ==========================
-# Data
-# ==========================
-data/raw/
-data/interim/
-data/processed/
-
-# (optional) keep schema/example CSVs if needed
-!data/raw/README.md
-
-# ==========================
-# Reports & Artifacts
-# ==========================
-
-# Ignore raw data (too large for GitHub)
 data/raw/*
 data/interim/*
 data/processed/*
 
-# Keep reports (tables & figures) in version control
+# ==========================
+# Reports & Artifacts
+# ==========================
 !reports/
 !reports/tables/
 !reports/figures/
 
-# Still ignore logs and junk, but NOT .csv or .png
+# Ignore non-essential report files
 reports/metrics/
 reports/*.log
 reports/*.json
 
-# Keep only figures (PNG/PDF) you explicitly commit
-!reports/figures/
+# ==========================
+# IDE / Editors
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # ==========================
-# Logs
+# OS files
 # ==========================
-*.log
-logs/
-*.out
-*.err
-
-# ==========================
-# Configs (if sensitive)
-# ==========================
-*.yaml
-*.yml
-*.ini
-*.cfg
-!configs/example_*.yaml
+.DS_Store
+Thumbs.db
