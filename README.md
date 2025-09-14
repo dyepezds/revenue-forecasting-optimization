@@ -2,7 +2,7 @@
 
 This project demonstrates an **end-to-end forecasting workflow** using both **statistical methods (SARIMAX)** and **machine learning (XGBoost)**.
 
-It highlights skills in **business intelligence, forecasting, and applied analytics** that translate across industries such as **gaming, retail, finance, and hospitality**.
+It highlights skills in **business intelligence, forecasting, and applied analytics** that translate across industries such as **business, retail, and finance**.
 
 ---
 
@@ -36,9 +36,6 @@ It highlights skills in **business intelligence, forecasting, and applied analyt
 ├── src/ # Modular Python code (ETL, features, modeling, utils)
 ├── tests/ # Unit tests
 └── requirements.txt # Reproducible environment
-
-yaml
-Copy code
 
 ---
 
@@ -105,4 +102,4 @@ To evaluate whether ML provides additional value, we compared **rolling backtest
 
 Daniel Yepez 
 
-Data Science | Business Intelligence | Forecasting 🔗 LinkedIn | GitHub
+Data Science | Business Intelligence | Forecasting |🔗 LinkedIn | GitHub
