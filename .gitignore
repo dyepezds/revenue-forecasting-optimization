@@ -52,11 +52,21 @@ data/processed/
 # ==========================
 # Reports & Artifacts
 # ==========================
-reports/tables/
+
+# Ignore raw data (too large for GitHub)
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Keep reports (tables & figures) in version control
+!reports/
+!reports/tables/
+!reports/figures/
+
+# Still ignore logs and junk, but NOT .csv or .png
 reports/metrics/
 reports/*.log
 reports/*.json
-reports/*.csv
 
 # Keep only figures (PNG/PDF) you explicitly commit
 !reports/figures/
